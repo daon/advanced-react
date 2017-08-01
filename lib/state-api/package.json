@@ -1,0 +1,8 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "author": "Dan Andersson <dan.andersson@chimpiq.com> (https://chimpiq.com/)",
+  "license": "MIT"
+}
