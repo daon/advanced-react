@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Advanced React",
   "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daon/advanced-react.git"
+  },
   "author": "Dan Andersson <dan.andersson@chimpiq.com> (https://chimpiq.com/)",
   "license": "MIT",
   "scripts": {
@@ -19,12 +23,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
+    "enzyme": "^2.9.1",
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
     "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
